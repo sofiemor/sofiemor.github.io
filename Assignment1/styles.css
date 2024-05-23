@@ -1,0 +1,69 @@
+/* styles.css */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#background {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    background-image: url('background.jpg'); 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    z-index: -1; 
+}
+
+#log {
+    padding-top: 10px;
+    padding-left: 30px;
+    font-weight: bolder;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: white;
+}
+
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.menu-button img {
+    padding-top: 10px;
+    padding-right:30px;
+    height: 30px;
+    width: 30px; 
+    max-width: 100%;
+}
+
+.text-left-middle {
+    font-family: Arial, sans-serif;
+    color: white;
+    position: fixed;
+    top: 55%; 
+    left: 0; 
+    transform: translateY(-50%); 
+    padding-left: 150px; 
+    font-size: 18px; 
+}
+
+.top {
+    font-weight: 200;
+}
+
+.bigger {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 60px; 
+    line-height: 1; 
+    font-weight: 900;
+}
