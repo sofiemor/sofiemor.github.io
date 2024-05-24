@@ -1,0 +1,122 @@
+
+/* LOGIN */
+
+body {
+    background-color: lightgrey;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    /* background-color: red; */
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.grey-form {
+    background-color: #26333c;
+    display: flex;
+    width: 38%;
+    height: 65%;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-content {
+    width: 87%;
+    height: 88%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: green; */
+}
+
+.one {
+    width: 100%;
+    background-color: azure;
+    display: flex;
+    height: 12%;
+}
+
+.button {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one a {
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.clicked {
+    background-color: #32a983;
+    color: white;
+}
+
+.notClicked {
+    background-color: #455259;
+    color: #8ca9b0;
+}
+
+.two {
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+    padding-bottom: 0%;
+    padding-top: 0%;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.three {
+    display: flex;
+    justify-content: space-between;
+    height: 9%;
+}
+
+.three input {
+    border: 1px solid #979ea2;
+    background-color: #26333c;
+}
+
+.name {
+    width: 46%;
+}
+
+input::placeholder {
+    color: #979ea2; 
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+  }
+
+.email {
+    width: 100%;
+}
+
+.password {
+    width: 100%;
+}
+
+.four {
+    height: 13%;
+}
+.start {
+    width: 100%;
+    height: 100%;
+}
+
+.four button {
+    border: none;
+    background-color: #32a983;
+    color: white;
+}
+
+.star {
+    color: #32a983;
+}
+  
