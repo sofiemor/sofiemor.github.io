@@ -1,0 +1,161 @@
+/* style.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; 
+}
+
+.mid {
+    display: flex;
+    justify-content: center;
+}
+
+.header-solutions {
+    font-family: Arial, sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 30px;
+    font-size: 35px;
+    /* background-color: aqua; */
+    width: 70%;
+    margin-top: 40px;
+}
+
+.title {
+    width: 70%;
+}
+
+
+.house-pic {
+    width: 100%;
+    height: 300px;
+}
+
+.product-pic {
+    width: 200px;
+    height: 150px;
+}
+
+
+
+/* LOGIN */
+
+
+
+.container-log {
+    display: flex;
+    background-color: rgb(216, 188, 188);
+    width: 100%;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.grey-form {
+    /* background-color: #decdb4; */
+    display: flex;
+    width: 80%;
+    height: 90%;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-content {
+    width: 87%;
+    height: 88%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: green; */
+}
+
+.one {
+    width: 100%;
+    background-color: azure;
+    display: flex;
+    height: 12%;
+}
+
+.button {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one a {
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.clicked {
+    background-color: #d1b969;
+    color: white;
+}
+
+.notClicked {
+    background-color: #ebe8dd;
+    color: #8ca9b0;
+}
+
+.two {
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+    padding-bottom: 0%;
+    padding-top: 0%;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.three {
+    display: flex;
+    justify-content: space-between;
+    height: 9%;
+}
+
+.three input {
+    border: 1px solid #979ea2;
+    background-color: #ebe8dd;
+}
+
+.name {
+    width: 46%;
+}
+
+input::placeholder {
+    color: #979ea2; 
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+input::target-text {
+    color: white;
+}
+
+.email {
+    width: 100%;
+}
+
+.password {
+    width: 100%;
+}
+
+.four {
+    height: 13%;
+}
+.start {
+    width: 100%;
+    height: 100%;
+}
+
+.four button {
+    border: none;
+    background-color: #d1b969;
+    color: white;
+}
+
+  
