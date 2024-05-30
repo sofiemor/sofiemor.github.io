@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Header = ({ user, onNewUser }) => {
-  const message = user && user.age > 16
+  const message = user && user.age >= 16
     ? `Congratulations, ${user.name}! You can apply for a driver's license.` 
     : user
     ? `Sorry, ${user.name}. You cannot apply for a driver's license.`
