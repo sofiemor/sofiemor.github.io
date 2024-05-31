@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/sofiemor/sofiemor.github.io.git/static/js/main.c2500361.js",
+    "static/media/licenseApp.png": "/sofiemor/sofiemor.github.io.git/static/media/licenseApp.19a4689629bd5521b0f4.png",
+    "static/media/licenseApp2.png": "/sofiemor/sofiemor.github.io.git/static/media/licenseApp2.e47b6f24ba078ca38e8c.png",
+    "static/media/licenseApp3.jpeg": "/sofiemor/sofiemor.github.io.git/static/media/licenseApp3.f167012ebba765ac6c3c.jpeg",
+    "index.html": "/sofiemor/sofiemor.github.io.git/index.html",
+    "main.c2500361.js.map": "/sofiemor/sofiemor.github.io.git/static/js/main.c2500361.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.c2500361.js"
+  ]
+}
